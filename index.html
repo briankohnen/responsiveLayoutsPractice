@@ -6,7 +6,8 @@
     <title>Responsiveness</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9cc1485cba.js"></script>
 </head>
 <body>
 
@@ -18,11 +19,12 @@
         alt="Picture of Brian" title="Brian">
         
         <h1 class="sidebarHeader">Brian Kohnen</h1>
+        <p class="sidebarHeadBottom"><em>Full Stack Web Developer</em></p>
         
         <nav>
-            <a href="#top">home</a>
-            <a href="#gallery">gallery</a>
-            <a href="#contact">contact</a>
+            <a class="navLink" href="#top">about</a>
+            <a class="navLink" href="#gallery">gallery</a>
+            <a class="navLink" href="#contact">contact</a>
         </nav>
 
     </div>
@@ -31,7 +33,7 @@
 
         <section id="top" class="about">
 
-            <h1>about...</h1>
+            <h1 class="contHead">about...</h1>
 
                 <p>"You have no idea how high I can fly" - Michael Scott portrayed by Steve Carrell in <em>The Office</em>,
                     season 5, episode 20. If you haven't watched this TV show, I recommend it.
@@ -62,25 +64,25 @@
 
         <section id="gallery" class="gallery">
                 
-            <h1>gallery...</h1>
+            <h1 class="galleryHead contHead">gallery...</h1>
                 
-                <div class="galleryItem" title="Hangman">
+                <div class="galleryItemOne" title="Hangman">
                     <img src="assets/images/placeholder200.png" alt="Hangman">
                 </div>
         
-                <div class="galleryItem" title="RPG Game">
+                <div class="galleryItemTwo" title="RPG Game">
                     <img src="assets/images/placeholder200.png" alt="RPG Game">
                 </div>
                 
-                <div class="galleryItem" title="Trivia Game">
+                <div class="galleryItemThree" title="Trivia Game">
                     <img src="assets/images/placeholder200.png" alt="Trivia Game">
                 </div>
                 
-                <div class="galleryItem" title="Rutgers Info Widget">
+                <div class="galleryItemFour" title="Rutgers Info Widget">
                     <img src="assets/images/placeholder200.png" alt="Rutgers Widget">
                 </div>
         
-                <div class="galleryItem" title="Rock Paper Scissors">
+                <div class="galleryItemFive" title="Rock Paper Scissors">
                     <img src="assets/images/placeholder200.png" alt="Rock Paper Scissors">
                 </div>
         
@@ -88,21 +90,15 @@
 
         <section id="contact" class="contact">
 
-            <h1>contact...</h1>
-
-                <label for="userName" class="contactLabel">Your Name</label>
-                    <input class="contactForm" type="text" id="userName" name="flName" placeholder="John Smith">
-
-                <label for="userEmail" class="contactLabel">E-mail</label>
-                    <input class="contactForm" type="text" id="userEmail" name="email" placeholder="johnsmith@email.com">
-
-                <label for="message" class="contactLabel">What do you think?</label>
-                    <textarea class="contactForm" id="message" name="subject" style="height:200px">
-                    </textarea>
-
-        <div class="button">Submit</div>
+            <h1 class="contactHead contHead">contact...</h1>
+            <a href="mailto:kohnenbrian@gmail.com" target="_blank" class="far fa-envelope"></a>
+            <a href="https://github.com/briankohnen" target="_blank" class="fab fa-github"></a>
+            <a href="https://www.linkedin.com/in/brian-kohnen-b05025187/" target="_blank" class="fab fa-linkedin-in"></a>
+            </form>
 
         </section>
+
+        <a class="topButton" href="#top">Top</a>
 
     </div>
 </div>
