@@ -7,9 +7,12 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/9cc1485cba.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/9cc1485cba.js"></script> -->
 </head>
 <body>
+    
+    <div class="animDiv">
+    </div>
 
 <div class="wrapper">
 
@@ -23,7 +26,7 @@
         
         <nav>
             <a class="navLink" href="#top">about</a>
-            <a class="navLink" href="#gallery">gallery</a>
+            <a class="navLink" href="#gallery">portfolio</a>
             <a class="navLink" href="#contact">contact</a>
         </nav>
 
@@ -61,29 +64,52 @@
         </section>
 
         <img src="assets/images/phonyLogo.png" class="logo" alt="Logo">
+        
+        <br>
+        <br>
 
         <section id="gallery" class="gallery">
                 
-            <h1 class="galleryHead contHead">gallery...</h1>
+            <h1 class="galleryHead contHead">portfolio...</h1>
                 
-                <div class="galleryItemOne" title="Hangman">
-                    <img src="assets/images/placeholder200.png" alt="Hangman">
+                <div class="galleryItemOne">
+                    <h1 class="galleryInfHead">Liri: Node Based App</h1>
+                    <a href="https://github.com/briankohnen/liri-node-app" target="_blank">
+                    <img class="galImg"  src="assets/images/liriApp.png" alt="Liri-node-app" title="Liri">
+                    </a>
+                    <p class="galleryInfo">Node based language interpretation (like Siri's 'Speech Interpretation') app that takes in a user's input to grab information through different API calls and returns relevant data</p>
+                </div>
+
+                <div class="galleryItemTwo">
+                        <h1 class="galleryInfHead">FOMO Events</h1>
+                        <a href="https://briankohnen.github.io/proj-test-pages/" target="_blank">
+                        <img class="galImg"  src="assets/images/fomoEvents.png" alt="FOMO Events" title="FOMO Events">
+                        </a>
+                        <p class="galleryInfo">FOMO Events is a web application that helps event-goers to find events in their city, and connect with others using the app<p>
+                    </div>
+        
+                <div class="galleryItemThree">
+                    <h1 class="galleryInfHead">GIF Generator</h1>
+                    <a href="https://briankohnen.github.io/gif-generator/" target="_blank">
+                    <img class="galImg"  src="assets/images/gifGen.png" alt="Gif-generator" title="GIF Generator">
+                    </a>
+                    <p class="galleryInfo">Dynamic web page that calls the GIPHY api to display .gifs that can be favorited by the user</p>
+                </div>
+                
+                <div class="galleryItemFour">
+                    <h1 class="galleryInfHead">Video Game Trivia</h1>
+                    <a href="https://briankohnen.github.io/TriviaGame/" target="_blank">
+                    <img class="galImg"  src="assets/images/triviaGame.png" alt="Trivia Game" title="Video Game Trivia">
+                    </a>
+                    <p class="galleryInfo">A timed trivia game with questions based on video games, logging the players correct and incorrect guesses</p>
                 </div>
         
-                <div class="galleryItemTwo" title="RPG Game">
-                    <img src="assets/images/placeholder200.png" alt="RPG Game">
-                </div>
-                
-                <div class="galleryItemThree" title="Trivia Game">
-                    <img src="assets/images/placeholder200.png" alt="Trivia Game">
-                </div>
-                
-                <div class="galleryItemFour" title="Rutgers Info Widget">
-                    <img src="assets/images/placeholder200.png" alt="Rutgers Widget">
-                </div>
-        
-                <div class="galleryItemFive" title="Rock Paper Scissors">
-                    <img src="assets/images/placeholder200.png" alt="Rock Paper Scissors">
+                <div class="galleryItemFive">
+                    <h1 class="galleryInfHead">Coding Hangman</h1>
+                    <a href="https://briankohnen.github.io/word-guess-game/" target="_blank">
+                    <img class="galImg" src="assets/images/hangMan.png" alt="Word Guess Game" title="Word Guess Game">
+                    </a>
+                    <p class="galleryInfo">A web based game that randomly selects a word related to coding, user has limited guesses to correctly guess the word</p>
                 </div>
         
             </section>
@@ -91,9 +117,9 @@
         <section id="contact" class="contact">
 
             <h1 class="contactHead contHead">contact...</h1>
-            <a href="mailto:kohnenbrian@gmail.com" target="_blank" class="far fa-envelope"></a>
-            <a href="https://github.com/briankohnen" target="_blank" class="fab fa-github"></a>
-            <a href="https://www.linkedin.com/in/brian-kohnen-b05025187/" target="_blank" class="fab fa-linkedin-in"></a>
+            <a href="mailto:kohnenbrian@gmail.com" target="_blank" class="fa fa-envelope" title="e-mail"></a>
+            <a href="https://github.com/briankohnen" target="_blank" class="fa fa-github" title="github"></a>
+            <a href="https://www.linkedin.com/in/brian-kohnen-b05025187/" target="_blank" class="fa fa-linkedin" title="linkedIn"></a>
             </form>
 
         </section>
